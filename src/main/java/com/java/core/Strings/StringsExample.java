@@ -1,4 +1,4 @@
-package com.java.core;
+package com.java.core.Strings;
 
 import lombok.extern.slf4j.Slf4j;
 
