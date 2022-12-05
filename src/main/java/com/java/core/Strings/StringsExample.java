@@ -16,6 +16,8 @@ import java.util.Arrays;
  * s1 and s2 are equal
  * String s3 = new "rahul", this will not go into pool
  * s1 == s3 are not equal
+ *
+ * String equals methos is overrided and checks for string content for equality
  */
 
 @Slf4j
