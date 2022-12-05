@@ -17,7 +17,12 @@ import java.util.Arrays;
  * String s3 = new "rahul", this will not go into pool
  * s1 == s3 are not equal
  *
- * String equals methos is overrided and checks for string content for equality
+ * String equals method is overrided and checks for string content for equality
+ *
+ * String is Immutable & Thread Safe
+ * String Builder is Multable
+ * String Buffer is Mutable & Thread Safe
+ * 
  */
 
 @Slf4j
