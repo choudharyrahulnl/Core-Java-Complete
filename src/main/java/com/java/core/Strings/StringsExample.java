@@ -10,11 +10,14 @@ import java.util.Arrays;
  * Because String objects are immutable they can be shared.
  *
  * String buffers support mutable strings
+ *
+ *
  */
 
 @Slf4j
 public class StringsExample {
 
+    // String para = new String("String buffers support mutable strings");
     String para = "String buffers support mutable strings";
 
     public static void main(String[] args) {
