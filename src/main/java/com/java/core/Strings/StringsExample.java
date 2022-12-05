@@ -10,8 +10,12 @@ import java.util.Arrays;
  * Because String objects are immutable they can be shared.
  *
  * String buffers support mutable strings
- *
- *
+ * String uses memory pool when we created string using below
+ * String s1 = "rahul"
+ * String s2 = "rahul" 
+ * s1 and s2 are equal
+ * String s3 = new "rahul", this will not go into pool
+ * s1 == s3 are not equal
  */
 
 @Slf4j
