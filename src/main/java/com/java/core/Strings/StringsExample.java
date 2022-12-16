@@ -76,6 +76,7 @@ public class StringsExample {
 
     // Compares two strings lexicographically.
     // compareToIgnoreCase(String str): Compares two strings lexicographically, ignoring case differences.
+    // Compare first char with first char if one is greater then return if same check second char with other second char...
     public void compareTo() {
         log.info(String.valueOf("rahul".compareTo("rahul")));
         log.info(String.valueOf("rahul".compareTo("rahul1")));
